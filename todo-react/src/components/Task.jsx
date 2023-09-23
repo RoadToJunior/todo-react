@@ -5,7 +5,9 @@ const Task = (props) => {
   return (
     <div>
       <p>
-        <strong>{text}</strong> - do <span>{date}</span>
+        <strong>{text}</strong> - do <span>{date} </span>
+        <button>done</button>
+        <button>X</button>
       </p>
     </div>
   );
